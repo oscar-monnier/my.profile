@@ -1,0 +1,87 @@
+body {
+
+	font-family: yeseva one;
+	background-color: rgb(225, 225, 225);
+	color: rgb(50,50,50);
+	font-size:16px;
+	color : #142d4c;
+
+}
+
+h1,h2,h3 {
+	font-family: yeseva one,serif;
+	letter-spacing: 5px;
+}
+
+h1{
+	color: rgb(164, 75, 75);
+	font-size:30px;
+	border-radius : 10px;
+}
+
+h3 {
+	color: rgb(164, 75, 75);
+	font-size:20px;
+}
+
+
+/*Custom design with class*/
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.image-circle{
+	width: 300px;
+	border-radius: 60%;
+	box-shadow: 0px 5px 5px;
+
+}
+
+.card-white {
+	background : white;
+	padding : 40px;
+	border-radius : 2px;
+	box-shadow: 50px 50px 50px rgba(109, 109, 109,.30);
+	margin : 30px auto;
+	text-align: center;
+}
+
+.button-blue{
+	text-decoration: none;
+	color : #f9f7f7 ;
+	background-color: rgb(164, 75, 75);
+	border-radius : 6px;
+	padding : 5px 10px;
+}
+
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+}
+
+.list-inline li{
+	display : inline;
+	padding : 20px;
+}
+
+.list-inline i{
+	font-size:60px;
+	color : #5D88A4;
+}
+
+.list-inline i:hover {
+	font-size:70px;
+	color : rgb(164, 75, 75);
+
+}
+
+/* Design adjustments using ID */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
